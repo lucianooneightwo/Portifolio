@@ -1,0 +1,23 @@
+
+
+.logo {
+    
+    font-size: 3rem; 
+    font-weight: bold; 
+    color: var(--color-h1); 
+    letter-spacing: 0.1rem; 
+    text-transform: uppercase; 
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); 
+    display: flex; 
+    justify-content: center; 
+    margin: 20px; 
+}
+
+.logo span {
+    transition: transform 0.3s; 
+}
+
+.logo span:hover {
+    transform: scale(1.1); 
+    
+}

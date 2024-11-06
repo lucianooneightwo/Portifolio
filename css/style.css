@@ -1,0 +1,83 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400&display=swap");
+
+@import "./navbar.css";
+@import "./logo.css";
+@import "./main.css";
+@import "./footer.css";
+
+
+:root {
+    --color-dark: #000000;
+    --color-white: #ffffff;
+    --color-h1: #333366;
+    --color-h2-p-a:  #3399cc;
+    --color-button:  #FFA500;
+    --color-button-hover:  #e59400;
+    
+  } 
+
+
+
+
+/* Estilo geral */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+
+
+
+/* Estilo responsivo para mobile */
+
+@media (max-width: 1170px) {
+  .menu-desktop {
+    display: none;
+  }
+
+
+  .btn-abrir {
+    display: block;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .sobre-web-design {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .sobre-web-design article,
+  .sobre-web-design figcaption {
+    width: 100%;
+  }
+
+  footer ul {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  footer ul li {
+    display: inline-block;
+  }
+
+  footer ul li a img {
+    width: 40px;
+  }
+}
